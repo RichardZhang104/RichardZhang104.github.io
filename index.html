@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #text-to-type {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        #input-field {
+            font-size: 1.5em;
+            padding: 10px;
+            width: 80%;
+            max-width: 600px;
+        }
+        #timer {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        #results {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Typing Test</h1>
+    <div id="text-to-type">The quick brown fox jumps over the lazy dog.</div>
+    <input type="text" id="input-field" placeholder="Start typing here...">
+    <div id="timer">Time: 0s</div>
+    <div id="results"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
